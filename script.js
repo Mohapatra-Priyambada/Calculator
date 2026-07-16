@@ -12,9 +12,9 @@ if (themeValue === "light") {
 toggle.addEventListener("click", () => {
     document.body.classList.toggle("light");
     if (document.body.classList.contains("light")) {
-        localStoarge.setItem("theme", "light");
+        localStorage.setItem("theme", "light");
     } else {
-        localStoarge.setItem("theme", "dark");
+        localStorage.setItem("theme", "dark");
     }
 
 })
